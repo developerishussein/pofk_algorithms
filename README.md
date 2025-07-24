@@ -7,7 +7,7 @@
 ---
 
 ⚠️ **This package is under active development.**  
-Over **500 algorithms** are planned to be included in future updates.
+Over **1000 algorithms** are planned to be included in future updates.
 
 ✅ **It is recommended to start using it from version `0.1.0`** for more stable and extensive support.
 
