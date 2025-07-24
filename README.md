@@ -1,6 +1,6 @@
 # 🧠 POFK_algorithm
 
-![Temporary Logo](https://github.com/developerishussein/Assassin-s-algorithm/blob/main/logo/logo.jpg)
+![Temporary Logo](https://github.com/POFKLabs/pofk_algorithm/blob/main/logo/logo.jpg)
 
 > A comprehensive Dart library offering powerful and scalable implementations of algorithms and data structures, including search, sort, and advanced utilities. Designed for high-performance computing, intelligent systems, and algorithmic problem-solving.
 
