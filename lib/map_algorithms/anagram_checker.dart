@@ -18,14 +18,16 @@ bool isAnagram<T>(List<T> seq1, List<T> seq2) {
 
   // If elements are String, normalize by trimming spaces and lowercasing
   if (T == String) {
-    sorted1 = sorted1
-        .cast<String>()
-        .map((e) => e.replaceAll(' ', '').toLowerCase() as T)
-        .toList();
-    sorted2 = sorted2
-        .cast<String>()
-        .map((e) => e.replaceAll(' ', '').toLowerCase() as T)
-        .toList();
+    sorted1 =
+        sorted1
+            .cast<String>()
+            .map((e) => e.replaceAll(' ', '').toLowerCase() as T)
+            .toList();
+    sorted2 =
+        sorted2
+            .cast<String>()
+            .map((e) => e.replaceAll(' ', '').toLowerCase() as T)
+            .toList();
   }
 
   sorted1.sort();

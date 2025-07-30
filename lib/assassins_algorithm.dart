@@ -4,7 +4,8 @@
 library;
 
 export 'src/pofk_algorithm_base.dart';
-///List 
+
+///List
 export 'list_algorithms/linear_search.dart';
 export 'list_algorithms/binary_search.dart';
 export 'list_algorithms/merge_sort.dart';
@@ -24,6 +25,7 @@ export 'list_algorithms/two_sum_sorted.dart';
 export 'list_algorithms/remove_duplicates.dart';
 export 'list_algorithms/rotate_array_right.dart';
 export 'list_algorithms/prefix_sum.dart';
+
 ///set_algorithms
 export 'set_algorithms/has_duplicates.dart';
 export 'set_algorithms/disjoint_set.dart';

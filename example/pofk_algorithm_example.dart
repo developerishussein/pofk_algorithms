@@ -16,7 +16,5 @@ void main() {
   List<String> sortedWords = ['apple', 'banana', 'cherry', 'date'];
   int stringIndex = binarySearch<String>(sortedWords, 'cherry');
 
-  print(stringIndex != -1
-      ? '🍒 Found at index $stringIndex'
-      : '❌ Not found');
+  print(stringIndex != -1 ? '🍒 Found at index $stringIndex' : '❌ Not found');
 }

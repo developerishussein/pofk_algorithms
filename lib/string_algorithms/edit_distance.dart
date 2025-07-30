@@ -34,9 +34,9 @@ int editDistance(String word1, String word2) {
       } else {
         // Minimum of insert, delete, replace operations + 1
         dp[i][j] = [
-          dp[i][j - 1] + 1,    // Insert
-          dp[i - 1][j] + 1,    // Delete
-          dp[i - 1][j - 1] + 1 // Replace
+          dp[i][j - 1] + 1, // Insert
+          dp[i - 1][j] + 1, // Delete
+          dp[i - 1][j - 1] + 1, // Replace
         ].reduce((a, b) => a < b ? a : b);
       }
     }

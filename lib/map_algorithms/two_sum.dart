@@ -16,7 +16,7 @@ List<int>? twoSum<T>(List<T> nums, T target) {
 
   for (int i = 0; i < nums.length; i++) {
     T current = nums[i];
-    
+
     // Dart doesn't support arithmetic operators in generics directly,
     // so to make this generic, you'd need additional mechanisms or restrict to int.
     // For now, we cast to dynamic and rely on runtime.

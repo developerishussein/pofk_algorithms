@@ -1,5 +1,5 @@
 /// Rabin-Karp algorithm for substring search.
-/// 
+///
 /// Returns the starting index of the first occurrence of [pattern] in [text].
 /// Returns -1 if [pattern] is not found.
 ///
@@ -19,11 +19,11 @@ int rabinKarpSearch(String text, String pattern) {
   int n = text.length;
   int m = pattern.length;
 
-  if (m == 0) return 0;           // empty pattern matches at index 0
-  if (m > n) return -1;           // pattern longer than text => no match
+  if (m == 0) return 0; // empty pattern matches at index 0
+  if (m > n) return -1; // pattern longer than text => no match
 
-  const int base = 256;           // number of possible characters (ASCII)
-  const int mod = 101;            // a prime number to reduce collisions
+  const int base = 256; // number of possible characters (ASCII)
+  const int mod = 101; // a prime number to reduce collisions
 
   // Compute base^(m-1) % mod for use in rolling hash
   int highOrder = 1;
@@ -58,7 +58,10 @@ int rabinKarpSearch(String text, String pattern) {
 
     // Compute hash for next window: Remove leading char, add trailing char
     if (i < n - m) {
-      windowHash = (base * (windowHash - text.codeUnitAt(i) * highOrder) + text.codeUnitAt(i + m)) % mod;
+      windowHash =
+          (base * (windowHash - text.codeUnitAt(i) * highOrder) +
+              text.codeUnitAt(i + m)) %
+          mod;
 
       // Ensure positive hash value
       if (windowHash < 0) {

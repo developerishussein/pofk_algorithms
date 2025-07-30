@@ -3,8 +3,14 @@ import 'package:test/test.dart';
 
 void main() {
   test('finds first non-repeated element in string list', () {
-    expect(firstNonRepeatedElement<String>(['a', 'a', 'b', 'b', 'c', 'd', 'e']), 'c');
-    expect(firstNonRepeatedElement<String>(['a', 'a', 'b', 'b', 'c', 'c']), isNull);
+    expect(
+      firstNonRepeatedElement<String>(['a', 'a', 'b', 'b', 'c', 'd', 'e']),
+      'c',
+    );
+    expect(
+      firstNonRepeatedElement<String>(['a', 'a', 'b', 'b', 'c', 'c']),
+      isNull,
+    );
   });
 
   test('finds first non-repeated element in int list', () {

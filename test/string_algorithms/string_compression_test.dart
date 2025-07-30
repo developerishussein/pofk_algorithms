@@ -4,7 +4,10 @@ import 'package:test/test.dart';
 void main() {
   group('String Compression Tests', () {
     test('Compression outputs correct results', () {
-      expect(compressString("aaabbc"), anyOf("a3b2c1", "aaabbc")); // Accepts original if compression not shorter
+      expect(
+        compressString("aaabbc"),
+        anyOf("a3b2c1", "aaabbc"),
+      ); // Accepts original if compression not shorter
       expect(compressString("abc"), "abc");
       expect(compressString("aabbccdde"), "aabbccdde");
       expect(compressString("aaaaaaaaaa"), "a10");

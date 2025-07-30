@@ -4,7 +4,16 @@ import 'package:test/test.dart';
 void main() {
   group('groupByKey', () {
     test('groups strings by first uppercase letter', () {
-      final words = ['Alice', 'Ahmed', 'Bob', 'Amal', 'adam', 'Bashar', 'Brian', ''];
+      final words = [
+        'Alice',
+        'Ahmed',
+        'Bob',
+        'Amal',
+        'adam',
+        'Bashar',
+        'Brian',
+        '',
+      ];
       final grouped = groupByKey<String, String>(
         words.where((w) => w.isNotEmpty).toList(),
         (word) => word[0].toUpperCase(),

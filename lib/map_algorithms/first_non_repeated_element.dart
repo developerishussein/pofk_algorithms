@@ -2,9 +2,9 @@
 ///
 /// This function counts the frequency of each element in the input list
 /// and returns the first element whose frequency is exactly one.
-/// 
+///
 /// It works with any type `T` that supports equality comparison.
-/// 
+///
 /// Returns `null` if there is no non-repeated element.
 ///
 /// Example:
@@ -43,4 +43,3 @@ void printResult<T>(List<T> input) {
     print("No non-repeated element found in $input");
   }
 }
-

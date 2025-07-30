@@ -33,9 +33,5 @@ Map<String, int> countVowelsAndConsonants(String text) {
 
   print("Total vowels: $vowelsCount, Total consonants: $consonantsCount");
 
-  return {
-    'vowels': vowelsCount,
-    'consonants': consonantsCount,
-  };
+  return {'vowels': vowelsCount, 'consonants': consonantsCount};
 }
-

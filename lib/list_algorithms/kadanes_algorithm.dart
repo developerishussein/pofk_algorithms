@@ -18,7 +18,8 @@ double kadanesAlgorithm(List<double> list) {
   double currentMax = list[0];
 
   for (int i = 1; i < list.length; i++) {
-    currentMax = list[i] > (currentMax + list[i]) ? list[i] : currentMax + list[i];
+    currentMax =
+        list[i] > (currentMax + list[i]) ? list[i] : currentMax + list[i];
     maxSoFar = currentMax > maxSoFar ? currentMax : maxSoFar;
   }
 

@@ -4,14 +4,16 @@ import 'package:test/test.dart';
 void main() {
   group('Anagram Tests', () {
     test('String anagrams with case and spaces ignored', () {
+      expect(isAnagram<String>("Listen".split(''), "Silent".split('')), isTrue);
       expect(
-          isAnagram<String>("Listen".split(''), "Silent".split('')), isTrue);
-      expect(
-          isAnagram<String>("Dormitory".split(''), "Dirty room".replaceAll(' ', '').split('')), isTrue);
-      expect(
-          isAnagram<String>("Hello".split(''), "Olelh".split('')), isTrue);
-      expect(
-          isAnagram<String>("Hello".split(''), "World".split('')), isFalse);
+        isAnagram<String>(
+          "Dormitory".split(''),
+          "Dirty room".replaceAll(' ', '').split(''),
+        ),
+        isTrue,
+      );
+      expect(isAnagram<String>("Hello".split(''), "Olelh".split('')), isTrue);
+      expect(isAnagram<String>("Hello".split(''), "World".split('')), isFalse);
     });
 
     test('List of integers anagrams', () {

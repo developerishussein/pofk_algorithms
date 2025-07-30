@@ -1,7 +1,7 @@
 /// Checks if the given [text] is a palindrome.
 ///
 /// Ignores spaces and is case-insensitive.
-/// 
+///
 /// Example:
 /// ```dart
 /// bool result = isPalindrome("A man a plan a canal Panama");

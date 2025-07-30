@@ -12,18 +12,24 @@ void main() {
     });
 
     test('strings', () {
-      expect(findIntersection(['apple', 'banana'], ['banana', 'cherry']),
-          equals(['banana']));
+      expect(
+        findIntersection(['apple', 'banana'], ['banana', 'cherry']),
+        equals(['banana']),
+      );
     });
 
     test('mixed order', () {
-      expect(findIntersection([5, 10, 15, 20], [20, 15, 10]),
-          equals([20, 15, 10]));
+      expect(
+        findIntersection([5, 10, 15, 20], [20, 15, 10]),
+        equals([20, 15, 10]),
+      );
     });
 
     test('duplicates in second list', () {
-      expect(findIntersection([1, 2, 3], [2, 2, 3, 3, 4]),
-          equals([2, 2, 3, 3]));
+      expect(
+        findIntersection([1, 2, 3], [2, 2, 3, 3, 4]),
+        equals([2, 2, 3, 3]),
+      );
     });
   });
 }

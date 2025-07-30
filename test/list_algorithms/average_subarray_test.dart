@@ -14,4 +14,3 @@ void main() {
     expect(result, equals(expected));
   });
 }
-

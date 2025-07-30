@@ -4,7 +4,17 @@ import 'package:test/test.dart';
 void main() {
   group('Kadane\'s Algorithm', () {
     test('Standard case with mixed numbers', () {
-      final result = kadanesAlgorithm([-2.0, 1.0, -3.0, 4.0, -1.0, 2.0, 1.0, -5.0, 4.0]);
+      final result = kadanesAlgorithm([
+        -2.0,
+        1.0,
+        -3.0,
+        4.0,
+        -1.0,
+        2.0,
+        1.0,
+        -5.0,
+        4.0,
+      ]);
       expect(result, equals(6.0));
     });
 

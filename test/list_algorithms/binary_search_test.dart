@@ -14,8 +14,14 @@ void main() {
     });
 
     test('Works with strings', () {
-      expect(binarySearch<String>(['apple', 'banana', 'cherry'], 'banana'), equals(1));
-      expect(binarySearch<String>(['apple', 'banana', 'cherry'], 'date'), equals(-1));
+      expect(
+        binarySearch<String>(['apple', 'banana', 'cherry'], 'banana'),
+        equals(1),
+      );
+      expect(
+        binarySearch<String>(['apple', 'banana', 'cherry'], 'date'),
+        equals(-1),
+      );
     });
 
     test('Empty list returns -1', () {

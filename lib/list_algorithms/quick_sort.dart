@@ -2,7 +2,7 @@
 ///
 /// Sorts a list using the quick sort algorithm.
 /// This implementation uses recursion and a partition function.
-/// Time Complexity: 
+/// Time Complexity:
 ///   - Average: O(n log n)
 ///   - Worst: O(n^2)
 /// Requires: [T] must extend Comparable

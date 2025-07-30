@@ -31,7 +31,9 @@ String longestPalindrome(String s) {
     String evenPalindrome = _expandAroundCenter(s, i, i + 1);
 
     String longerPalindrome =
-        oddPalindrome.length > evenPalindrome.length ? oddPalindrome : evenPalindrome;
+        oddPalindrome.length > evenPalindrome.length
+            ? oddPalindrome
+            : evenPalindrome;
 
     if (longerPalindrome.length > longest.length) {
       longest = longerPalindrome;

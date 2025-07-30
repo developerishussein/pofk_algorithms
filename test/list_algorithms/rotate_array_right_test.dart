@@ -4,13 +4,17 @@ import 'package:test/test.dart';
 void main() {
   group('rotateArrayRight', () {
     test('rotates int list by 3 steps', () {
-      expect(rotateArrayRight([1, 2, 3, 4, 5, 6, 7], 3),
-          equals([5, 6, 7, 1, 2, 3, 4]));
+      expect(
+        rotateArrayRight([1, 2, 3, 4, 5, 6, 7], 3),
+        equals([5, 6, 7, 1, 2, 3, 4]),
+      );
     });
 
     test('rotates string list', () {
-      expect(rotateArrayRight(['a', 'b', 'c', 'd'], 1),
-          equals(['d', 'a', 'b', 'c']));
+      expect(
+        rotateArrayRight(['a', 'b', 'c', 'd'], 1),
+        equals(['d', 'a', 'b', 'c']),
+      );
     });
 
     test('k larger than list length', () {

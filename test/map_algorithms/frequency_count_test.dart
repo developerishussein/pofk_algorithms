@@ -8,8 +8,10 @@ void main() {
     });
 
     test('counts frequency of strings', () {
-      expect(frequencyCount(['a', 'b', 'a', 'c', 'b', 'a']),
-          equals({'a': 3, 'b': 2, 'c': 1}));
+      expect(
+        frequencyCount(['a', 'b', 'a', 'c', 'b', 'a']),
+        equals({'a': 3, 'b': 2, 'c': 1}),
+      );
     });
 
     test('empty list returns empty map', () {
