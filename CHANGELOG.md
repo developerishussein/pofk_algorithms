@@ -1,4 +1,4 @@
-## [0.0.1] - 2025-07-24
+## [0.0.2] - 2025-07-24
 - Initial release of Pofk_algorithm.
 - Added binary search, linear search, and merge sort algorithms.
 
