@@ -22,4 +22,4 @@ Use this package as a library by depending on it in your Dart or Flutter project
 #### With Dart:
 
 ```bash
-dart pub add POFK_algorithm
+dart pub add pofk_algorithm
