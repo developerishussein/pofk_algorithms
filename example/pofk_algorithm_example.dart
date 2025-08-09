@@ -1,6 +1,6 @@
 // Import the umbrella library to access all algorithms
 import 'package:pofk_algorithm/pofk_algorithm.dart';
-// import 'package:pofk_algorithm/graph_algorithms/weighted_edge.dart';
+ import 'package:pofk_algorithm/graph_algorithms/weighted_edge.dart';
 
 void main() {
   // =========================
