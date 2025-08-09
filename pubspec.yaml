@@ -3,7 +3,7 @@ description: >
   A fast, extensible Dart library for algorithms and data structures, offering search, sort, and AI utilities. Over 500 algorithms planned in future versions.
 license: MIT
 
-version: 0.0.3
+version: 0.0.30
 repository: https://github.com/POFKLabs/pofk_algorithm
 
 environment:
