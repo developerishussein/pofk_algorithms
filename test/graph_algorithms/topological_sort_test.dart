@@ -21,5 +21,3 @@ void main() {
     expect(() => topologicalSort(graph), throwsStateError);
   });
 }
-
-

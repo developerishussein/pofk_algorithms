@@ -36,5 +36,3 @@ List<T> dfs<T>(Map<T, List<T>> graph, T start) {
   visit(start);
   return order;
 }
-
-

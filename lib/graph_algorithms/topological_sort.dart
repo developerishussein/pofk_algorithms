@@ -50,10 +50,10 @@ List<T> topologicalSort<T>(Map<T, List<T>> graph) {
   }
 
   if (order.length != nodes.length) {
-    throw StateError('Graph has at least one cycle; topological sort not possible.');
+    throw StateError(
+      'Graph has at least one cycle; topological sort not possible.',
+    );
   }
 
   return order;
 }
-
-

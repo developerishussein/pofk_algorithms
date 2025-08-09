@@ -14,5 +14,3 @@ void main() {
     expect(shortestPathUnweighted(graph, 'A', 'F'), equals(['A', 'C', 'F']));
   });
 }
-
-

@@ -23,8 +23,9 @@ void main() {
       WeightedEdge('B', 'C', -2),
       WeightedEdge('C', 'A', -2),
     ];
-    expect(() => bellmanFord({'A', 'B', 'C'}, negCycleEdges, 'A'), throwsStateError);
+    expect(
+      () => bellmanFord({'A', 'B', 'C'}, negCycleEdges, 'A'),
+      throwsStateError,
+    );
   });
 }
-
-

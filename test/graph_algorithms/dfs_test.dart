@@ -14,5 +14,3 @@ void main() {
     expect(dfs(graph, 'A'), equals(['A', 'B', 'D', 'E', 'F', 'C']));
   });
 }
-
-

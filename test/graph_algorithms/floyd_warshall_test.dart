@@ -18,5 +18,3 @@ void main() {
     expect(dist['B']!['C'], equals(1));
   });
 }
-
-

@@ -18,5 +18,3 @@ void main() {
     expect(isBipartite(triangle), isFalse);
   });
 }
-
-

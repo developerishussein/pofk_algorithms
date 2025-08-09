@@ -39,5 +39,3 @@ bool isBipartite<T>(Map<T, List<T>> graph) {
   }
   return true;
 }
-
-
