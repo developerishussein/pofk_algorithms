@@ -1,3 +1,32 @@
+## [0.0.3] - 2025-08-09
+
+### Added
+
+#### Graph Algorithms
+- bfs
+- dfs
+- topological_sort
+- connected_components
+- cycle_detection (directed and undirected)
+- bipartite_graph
+- shortest_path (unweighted BFS)
+- weighted_edge (utility)
+- dijkstra
+- bellman_ford
+- floyd_warshall
+- mst_kruskal
+- mst_prim
+- kosaraju_scc
+- articulation_points
+- union_find (typedef of `DisjointSet`)
+
+### Changed
+- Updated `example/pofk_algorithm_example.dart` to include clear, organized examples for all algorithms across list, set, map, string, and graph modules.
+
+### Fixed
+- Resolved compile issues in new graph algorithms (e.g., `shortest_path` reverse usage, generic consts in `dijkstra`/`mst_prim`).
+- Corrected expectation in `min_sum` test to match implementation.
+
 ## [0.0.2] - 2025-07-24
 - Initial release of Pofk_algorithm.
 - Added binary search, linear search, and merge sort algorithms.
